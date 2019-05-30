@@ -1,7 +1,11 @@
-baseURL = "http://takint.github.io/"
+baseURL = "https://takint.github.io/"
+relativeURLs = false
 languageCode = "en-us"
-title = "Jim Le"
+title = "Jim Le: Full Stack Developer at Vacounver, Canada"
 theme = "hugo-geo"
+disqusShortname = "takint"
+enableRobotsTXT = true
+paginate = 5
 
 [taxonomies]
 	tag = "tags"
@@ -14,36 +18,38 @@ theme = "hugo-geo"
 	
 	analytics = "code-here"
 
-	email = "alexurquhart@gmail.com"
+	email = "taki.lnt@gmail.com"
 
-	profilepic = "img/profile.png"
+	profilepic = "img/ava3.jpg"
 	
-	title = "MY NAME"
-	subtitle = "MY HUGO BLOG"
+	title = "Jim Le"
+	subtitle = "Full Stack Developer at Vacounver, Canada"
+	description = "I'm Ngoc Tin Le (Jim), a Software Developer specialized in Microsoft Technologies. I aim to participate in building awesome software with ASP.NET Core (C#) and JavaScript."
+	defaultKeywords = ["Ngoc Tin Le", "Jim Le", "developer", "programming", "full-stack", "asp.net core", "software development", "engineer"]
 
 	# Social buttons for sidebar
 	# Each of these are optional
 	[[params.socialbuttons]]
+	faicon = "linkedin"
+	url = "https://www.linkedin.com/in/ngoctinle/"
+	[[params.socialbuttons]]
 	faicon = "github"
-	url = "https://github.com/alexurquhart"
+	url = "https://github.com/takint"
 	[[params.socialbuttons]]
 	faicon = "twitter"
-	url = "https://twitter.com/alexanderurq"
+	url = "https://twitter.com/takint"
 	[[params.socialbuttons]]
-	faicon = "linkedin"
-	url = "https://linkedin.com"
-	[[params.socialbuttons]]
-	faicon = "google-plus"
-	url = "https://plus.google.com/+YourID"
+	faicon = "stackoverflow"
+	url = "https://stackoverflow.com/users/1345472/takint"
+	
+	[[params.navlinks]]
+	name = "Resume"
+	url = "resume/"
 
+	[[params.navlinks]]
+	name = "Blog"
+	url = "post/"
+	
 	[[params.navlinks]]
 	name = "About"
 	url = "about"
-	
-	[[params.navlinks]]
-	name = "Blog"
-	url = ""
-	
-	[[params.navlinks]]
-	name = "Tutorials"
-	url = "tutorial/"
