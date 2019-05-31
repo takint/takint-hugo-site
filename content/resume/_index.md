@@ -16,7 +16,7 @@ title = "Resume"
         enable = true
         icon = "fa-user"
         title = "Career Summary"
-        summary = "Full Stack Software Developer with 6+ years of experience in software development field and Microsoft technique through .NET Framework, C# language, MSSQL and beyond. Advanced in Front-end technique through HTML5/CSS3, AngularJS, ReactJS and JQuery.<br/>Flexible mindset, adapt with changes very effectively and positively. Always be a model in showing positivity to others. I’m a friendly guy and have a good sense of humor."
+        summary = "Full Stack Software Developer with 5+ years of experience in software development field and Microsoft technique through .NET Framework, C# language, MSSQL and beyond. Advanced in Front-end technique through HTML5/CSS3, AngularJS, ReactJS and JQuery.<br/>Flexible mindset, adapt with changes very effectively and positively. Always be a model in showing positivity to others. I’m a friendly guy and have a good sense of humor."
 
     # Experiences section
     [params.experiences]
