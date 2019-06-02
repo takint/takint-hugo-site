@@ -1,7 +1,7 @@
 +++
 css = ["resume.css"]
 date = "2019-06-02T10:24:23+02:00"
-description = ""
+description = "Jim Le's online resume"
 scripts = ["main-min.js"]
 tags = []
 title = "Resume"
