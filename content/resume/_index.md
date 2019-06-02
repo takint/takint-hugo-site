@@ -1,6 +1,6 @@
 +++
 css = ["resume.css"]
-date = "2019-06-02T10:24:23+02:00"
+date = "2019-05-29T02:50:52+02:00"
 description = "Jim Le's online resume"
 scripts = ["main-min.js"]
 tags = []
