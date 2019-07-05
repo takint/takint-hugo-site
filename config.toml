@@ -1,7 +1,7 @@
 baseURL = "https://takint.github.io/"
 relativeURLs = false
 languageCode = "en-us"
-title = "Jim Le: Full Stack Developer at Vacounver, Canada"
+title = "Jim Le: Full Stack Developer in Vacounver, Canada"
 theme = "hugo-geo"
 disqusShortname = "takint"
 enableRobotsTXT = true
@@ -23,7 +23,7 @@ paginate = 5
 	profilepic = "img/ava3.jpg"
 	
 	title = "Jim Le"
-	subtitle = "Full Stack Developer at Vacounver, Canada"
+	subtitle = "Full Stack Developer in Vacounver, Canada"
 	description = "I'm Ngoc Tin Le (Jim), a Software Developer specialized in Microsoft Technologies. I aim to participate in building awesome software with ASP.NET Core (C#) and JavaScript."
 	defaultKeywords = ["Ngoc Tin Le", "Jim Le", "developer", "programming", "full-stack", "asp.net core", "software development", "engineer"]
 
