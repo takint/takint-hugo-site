@@ -31,7 +31,7 @@ paginate = 5
 	# Each of these are optional
 	[[params.socialbuttons]]
 	faicon = "linkedin"
-	url = "https://www.linkedin.com/in/ngoctinle/"
+	url = "https://www.linkedin.com/in/ngoc-tin-le/"
 	[[params.socialbuttons]]
 	faicon = "github"
 	url = "https://github.com/takint"
