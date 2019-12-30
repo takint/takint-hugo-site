@@ -3,13 +3,43 @@ css = ["resume.css"]
 date = "2019-05-29T02:50:52+02:00"
 description = "Jim Le's online resume"
 scripts = ["main-min.js"]
-tags = []
+tags = ["resume", "cv", ".net developer", "full stack .net developer", "software developer"]
 title = "Resume"
 
 [params]
     # Main body sections
 
     # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "C#"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "Javascript & Angular & ReactJS"
+        level = "70%"
+
+        [[params.skills.list]]
+        skill = "HTML5 & CSS"
+        level = "60%"
+
+        [[params.skills.list]]
+        skill = ".NET Core"
+        level = "75%"
+
+        [[params.skills.list]]
+        skill = "T-SQL & MSSQL"
+        level = "65%"
+
+        [[params.skills.list]]
+        skill = "Azure Cloud Services"
+        level = "70%"
 
     # Summary section
     [params.summary]
@@ -74,35 +104,5 @@ title = "Resume"
         [[params.projects.list]]
         title = "Bodog ODC"
         url = "https://www.bodog.eu/"
-        tagline = "Technologies include:<br> - Back-end: Drupal 7, PHP.<br> - The front-end: CSS with Responsive Design, Sencha Touch and LimeJS (game engine).<br> - Server: Varnish for server-side caching, CentOS.<br> - Utility: SVN with GitHub, issues tracking with Jira."
-
-    # Skills section
-    [params.skills]
-        enable = true
-        icon = "fa-rocket"
-        title = "Skills & Proficiency"
-
-        [[params.skills.list]]
-        skill = "C#"
-        level = "80%"
-
-        [[params.skills.list]]
-        skill = "Javascript & Angular & ReactJS"
-        level = "70%"
-
-        [[params.skills.list]]
-        skill = "HTML5 & CSS"
-        level = "60%"
-
-        [[params.skills.list]]
-        skill = ".NET Core"
-        level = "75%"
-
-        [[params.skills.list]]
-        skill = "T-SQL & MSSQL"
-        level = "65%"
-
-        [[params.skills.list]]
-        skill = "Azure Cloud Services"
-        level = "70%"
+        tagline = "Technologies include:<br> - Back-end: Drupal 7, PHP.<br> - The front-end: CSS with Responsive Design, Sencha Touch and LimeJS (game engine).<br> - Server: Varnish for server-side caching, CentOS.<br> - Utility: Source control with SVN, issues tracking with Jira."
 +++
