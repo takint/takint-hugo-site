@@ -1,12 +1,10 @@
-+++
-date = "2019-05-29T02:50:52+02:00"
-draft = false
-title = "Here is my brain-dump for some of practical things"
+---
+title: "Multi-threading programming in C# notes"
+date: 2020-10-14T10:38:50-07:00
+draft: false
+---
 
-+++
-
-# Multi-threading programming in C# notes:
-Thread safety removes the following conditions in the code:
+#### Thread safety removes the following conditions in the code:
 
 - **Race condition** occurs when two threads access a shared variable at the same time. The first thread reads the variable, and the second thread writes to the same variable at the same time.
 

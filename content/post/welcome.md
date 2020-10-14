@@ -5,6 +5,6 @@ title = "Welcome !"
 
 +++
 
-Welcome to my personal website.
+Welcome to my blog!!
 
 Cheers !
