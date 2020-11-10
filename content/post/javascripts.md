@@ -1,0 +1,18 @@
+---
+title: "JavaScripts"
+date: 2020-11-10T12:21:04-08:00
+draft: true
+---
+
+Notes:
+
+Arrow function
+Main benefit: No binding of 'this'
+ES6 arrow functions can’t be bound to a this keyword, so it will lexically go up a scope, and use the value of this in the scope in which it was defined.
+
+2. No self-referencing
+If your function needs to have a self-reference at any point (e.g. recursion, event handler that needs to unbind), it will not work.
+
+Arrow functions shine best with anything that requires this to be bound to the context, and not the function itself.
+
+Despite the fact that they are anonymous, I also like using them with methods such as map and reduce, because I think it makes my code more readable. To me, the pros outweigh the cons.
