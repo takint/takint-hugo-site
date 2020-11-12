@@ -1,7 +1,7 @@
 ---
-title: "C# notes"
-date: 2020-11-10T12:22:17-08:00
-draft: true
+title: "Multi-threading programming"
+date: 2020-11-09T12:22:17-08:00
+draft: false
 ---
 
 #### Thread safety removes the following conditions in the code:
