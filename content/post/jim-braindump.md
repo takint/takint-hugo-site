@@ -1,6 +1,6 @@
 ---
 title: "Jim's braindump"
-date: 2020-11-11T10:38:50-07:00
+date: 2020-11-12T12:33:00-07:00
 draft: false
 ---
 
@@ -11,4 +11,7 @@ draft: false
   
 - **JavaScript:** 
     - [Arrow functions in JavaScript notes](/post/arrow-function)  
+  
+- **Programming:**
+  - [Object-Oriented programming](/post/oop-programming)  
   
