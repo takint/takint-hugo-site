@@ -1,6 +1,6 @@
 ---
 title: "Jim's braindump"
-date: 2020-11-12T12:33:00-07:00
+date: 2020-11-27T00:17:09-08:00
 draft: false
 ---
 
@@ -14,4 +14,5 @@ draft: false
   
 - **Programming:**
   - [Object-Oriented programming](/post/oop-programming)  
+  - [MVC in a nutshell](/post/mvc-in-a-nutshell)  
   
