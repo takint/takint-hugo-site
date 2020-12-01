@@ -5,7 +5,7 @@ title = "Jim Le: Full Stack Developer in Vacounver, Canada"
 theme = "hugo-geo"
 disqusShortname = "takint"
 enableRobotsTXT = true
-paginate = 5
+paginate = 32
 
 [taxonomies]
 	tag = "tags"
