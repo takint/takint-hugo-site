@@ -1,7 +1,7 @@
 ---
 title: "Tdd Test Programming"
 date: 2020-12-08T10:45:08-08:00
-draft: true
+draft: false
 ---
 
 - **Unit Tests**: Test individual components in isolation from environment and concrete dependencies

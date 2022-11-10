@@ -1,7 +1,7 @@
 ---
 title: "Solving Problem Mindset"
 date: 2020-12-15T09:04:53-08:00
-draft: true
+draft: false
 ---
 
 
