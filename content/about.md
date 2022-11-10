@@ -48,3 +48,7 @@ I'm a software developer from Vancouver, Canada.
 
 🌊 Quote of the day:  
 ![Quote](https://github-readme-quotes.herokuapp.com/quote)
+
+Me at Microsoft Vancouver:
+
+<code><img width="80%" src="/img/atms.jpg"></code>

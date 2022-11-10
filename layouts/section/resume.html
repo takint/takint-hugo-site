@@ -12,6 +12,21 @@
         </div><!--//summary-->
     </section><!--//section-->
 
+    <section class="skills-section section">
+        <h2 class="section-title"><i class="fa {{ .Params.params.skills.icon }}"></i>{{ .Params.params.skills.title }}</h2>
+        <div class="skillset">
+        {{ range .Params.params.skills.list }}
+            <div class="item">
+                <h3 class="level-title">{{ .skill }}</h3>
+                <div class="level-bar">
+                    <div class="level-bar-inner" data-level="{{ .level }}">
+                    </div>
+                </div><!--//level-bar-->
+            </div><!--//item-->
+        {{ end }}
+        </div>
+    </section><!--//skills-section-->
+
     <!-- Experiences -->
     <section class="section experiences-section">
         <h2 class="section-title"><i class="fa {{ .Params.params.experiences.icon }}"></i>{{ .Params.params.experiences.title }}</h2>
@@ -45,21 +60,6 @@
         </div><!--//item-->
         {{ end }}
     </section><!--//section-->
-
-    <section class="skills-section section">
-        <h2 class="section-title"><i class="fa {{ .Params.params.skills.icon }}"></i>{{ .Params.params.skills.title }}</h2>
-        <div class="skillset">
-        {{ range .Params.params.skills.list }}
-            <div class="item">
-                <h3 class="level-title">{{ .skill }}</h3>
-                <div class="level-bar">
-                    <div class="level-bar-inner" data-level="{{ .level }}">
-                    </div>
-                </div><!--//level-bar-->
-            </div><!--//item-->
-        {{ end }}
-        </div>
-    </section><!--//skills-section-->
 
 </div><!--//main-body-->
 

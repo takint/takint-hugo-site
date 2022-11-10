@@ -20,12 +20,12 @@ paginate = 32
 
 	email = "taki.lnt@gmail.com"
 
-	profilepic = "img/ava3.jpg"
+	profilepic = "img/ava4.png"
 	
 	title = "Jim Le"
 	subtitle = "Full Stack Developer in Vacounver, Canada"
 	description = "I'm Ngoc Tin (Jim) Le, a Software Developer specialized in Microsoft Technologies. I aim to participate in building awesome software with ASP.NET Core (C#) and JavaScript."
-	defaultKeywords = ["Ngoc Tin Le", "Jim Le", "developer", "programming", "full-stack", "asp.net core", "software development", "engineer"]
+	defaultKeywords = ["Ngoc Tin Le", "Jim Le", "developer", "programming", "full-stack", "asp.net core", "software development", "engineer", "front-end developer", "angular developer", "react developer"]
 
 	# Social buttons for sidebar
 	# Each of these are optional
